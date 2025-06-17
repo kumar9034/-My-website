@@ -106,7 +106,8 @@ section{
     margin-bottom: 15px;
 }
 .social{
-    margin: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .social i{
     display: inline-flex;
@@ -397,9 +398,7 @@ form .send-btn:hover{
     .footer{
         padding: 18px 8%;
     }
-    .logo{
-        font-size: 28px;
-    }
+    
 }
 
 @media (max-width: 1380px){
@@ -419,7 +418,8 @@ form .send-btn:hover{
         height: 90vh;
         background-position: center; 
     }
-}@media (max-width: 1290px){
+}
+@media (max-width: 1290px){
     .box img{
         width: 100%;
         height: 60px;
@@ -429,7 +429,8 @@ form .send-btn:hover{
         font-size: 21px;
     }
 
-}@media (max-width: 1240px){
+}
+@media (max-width: 1240px){
     .about{
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -480,6 +481,10 @@ form .send-btn:hover{
     .navlist.active{
         right: 0;
     }
+    .top-btnm{
+        font-size: 7px;
+        padding: 5px 2px;
+    }
 }
 
 @media (max-width: 680px){
@@ -492,13 +497,16 @@ form .send-btn:hover{
     .hero{
         height: auto;
 }
+    .logo{
+        font-size: 17px;
+    }
       .hero span{
         font-size: 40px;
     }
     .hero h1{
         font-size: 30px;
     }
-
+}
 @media (max-width: 470px){
     :root{
         --h1-font: 3rem;

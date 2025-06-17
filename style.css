@@ -485,8 +485,19 @@ form .send-btn:hover{
 @media (max-width: 680px){
     .main-contact p{
         width: 100%;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 23px;
     }
+    .hero{
+        height: auto;
 }
+      .hero span{
+        font-size: 40px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
 
 @media (max-width: 470px){
     :root{
